@@ -28,7 +28,7 @@ Weight classifications are usually based on BMI, short for Body Mass Index, a ge
 
 ### Methods and Results
 
-**Logistic Regression (Shaheer Abbasi and Long Pham)**\
+**Logistic Regression**\
 Our goal is to be able to predict, as accurately as possible, whether an individual is at risk based on certain predictors. A logistic regression model is appropriate for this response variable because it models the probability of a binary outcome. Using a multivariate approach allows us to have a different view of the data from all possible angles, giving us a more encompassing and accurate result. However, using a multivariate logistic regression will not explain certain variables well if they do not have linear relationships.
 
 A basic multivariate logistic regression formula would be:\
@@ -91,7 +91,7 @@ mean(lg.error.rate)
 
 After 10 iterations of the training and testing, the mean test error rate was 30.81%. This implies that a person's lifestyle choices such as FAVC, NCP, CAEC, smoking status, physical activity frequency, technology use, alcohol consumption, and transportation method can predict whether an individual is at "high-risk" or "manageable" obesity levels with roughly 69.19% accuracy.
 
-**Linear Discriminant Analysis (Jordan Pho, Jack Tran, Isaac Kapeel)**\
+**Linear Discriminant Analysis**\
 
 LDA assumes that X is drawn from a multivariate normal distribution, where each class has its own mean μk, and both classes share the same spread (common covariance matrix Σ). LDA is very effective in binary classification, though due to the assumption of normality, it makes it so that predictors with categorical values should make it less effective. For example, predictors like MTRANS should make the model perform a little worse due to MTRANS being five categorical values. LDA has capabilities of dimension reduction, though we do not leverage that capability in this project.
 
